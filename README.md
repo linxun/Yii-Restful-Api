@@ -1,8 +1,10 @@
-# Yii-Restful-API-with-MongoDB-
-基于Yii 的 Restful API
+# Yii-Restful-API (with MongoDB)
+基于Yii的 REST API (演示地址）
+* 特点1
+* 特点2
 
 ## 几个示例说明
-新增路由
+
 
 ```
 [POST]
@@ -17,6 +19,25 @@
 
 
 ## 配置
+Nginx
+```
+```
+
+MongoDB
+```
+```
+
+## 主要的目录结构
+```
++ src
+  |+ protected
+     |+ components // 组件
+     |+ config     // 配置
+  |- x
+  |- y
+
+```
 
 ## 注意
+* yii
 
