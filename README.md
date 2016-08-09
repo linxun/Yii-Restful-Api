@@ -124,4 +124,5 @@ class UsersController extends Controller
         ),
 ```
 
-
+## 注意
+* 需要把yii主框架目录放在与"Yii-Restful-Api"同一个目录下
