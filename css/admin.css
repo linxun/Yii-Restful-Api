@@ -1,0 +1,42 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    color: #555;
+    font: normal 10pt Arial,Helvetica,sans-serif;
+    background: #EFEFEF;
+}
+
+#page
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: white;
+    border: 1px solid #C9E0ED;
+}
+#topbar {
+    background-color: #545652;
+    color: #D5D5D5;
+    height: 28px;
+    min-width: 950px;
+}
+#mainmenu
+{
+    width: 270px;
+    float: left;
+    overflow: hidden;
+
+}
+#footer
+{
+    padding: 10px;
+    margin: 10px 20px;
+    font-size: 0.8em;
+    text-align: center;
+    border-top: 1px solid #C9E0ED;
+}
+
+#content {
+    float:left;
+}
+.clear { clear:both;}

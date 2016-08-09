@@ -1,0 +1,565 @@
+2015/10/13 16:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "v1/friends//friendships".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('v1/friends//fri...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/v1/friends//friendships
+---
+2015/10/13 16:38:51 [error] [php] Trying to get property of non-object (/Users/linxun/code/wode/wode_api/protected/components/FriendsService.php:434)
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/actions/CInlineAction.php(49): ReceivedfeedsController->actionRest()
+#1 /Users/linxun/code/wode/yii/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Users/linxun/code/wode/yii/web/CController.php(286): ReceivedfeedsController->runAction()
+#3 /Users/linxun/code/wode/yii/web/CController.php(265): ReceivedfeedsController->runActionWithFilters()
+#4 /Users/linxun/code/wode/yii/web/CWebApplication.php(282): ReceivedfeedsController->run()
+#5 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#7 /Users/linxun/code/wode/wode_api/index.php(24): CWebApplication->run()
+REQUEST_URI=/v1/feeds/received/53ceecdb36756bb06e848a1e?from=1444725008222&limit=20&v=201506&friendFlag=1
+in /Users/linxun/code/wode/wode_api/protected/components/FriendsService.php (434)
+in /Users/linxun/code/wode/wode_api/protected/modules/feeds/controllers/ReceivedfeedsController.php (56)
+in /Users/linxun/code/wode/wode_api/protected/components/Controller.php (66)
+2015/10/13 16:55:59 [error] [php] Undefined variable: friendsFriend (/Users/linxun/code/wode/wode_api/protected/components/FriendsService.php:455)
+Stack trace:
+#0 /Users/linxun/code/wode/wode_api/protected/components/Controller.php(66): ReceivedfeedsController->get()
+#1 /Users/linxun/code/wode/yii/web/actions/CInlineAction.php(49): ReceivedfeedsController->actionRest()
+#2 /Users/linxun/code/wode/yii/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/linxun/code/wode/yii/web/CController.php(286): ReceivedfeedsController->runAction()
+#4 /Users/linxun/code/wode/yii/web/CController.php(265): ReceivedfeedsController->runActionWithFilters()
+#5 /Users/linxun/code/wode/yii/web/CWebApplication.php(282): ReceivedfeedsController->run()
+#6 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /Users/linxun/code/wode/wode_api/index.php(24): CWebApplication->run()
+REQUEST_URI=/v1/feeds/received/5442993335dae733148b456c?from=1444726499442&limit=20&v=201506&friendFlag=1
+in /Users/linxun/code/wode/wode_api/protected/components/FriendsService.php (455)
+in /Users/linxun/code/wode/wode_api/protected/components/FriendsService.php (432)
+in /Users/linxun/code/wode/wode_api/protected/modules/feeds/controllers/ReceivedfeedsController.php (56)
+2015/10/13 17:00:02 [trace] [oauth] oauth2=abcc0686e79495b5a86d57b6f75bb8af;signature=05093d3bbbabe867471b3a96ea7d4bed;timestamp=1444726802  bGctWGjPVebjr9u
+2015/10/13 17:00:02 [trace] [oauth] oauth2=abcc0686e79495b5a86d57b6f75bb8af;signature=a521644191b0d99747a3f1fde2d9fd58;timestamp=1444726803  wxuiQBZbbr0IuDH
+2015/10/13 17:00:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "v1/users/(null)/logout".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('v1/users/(null)...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/v1/users/(null)/logout
+---
+2015/10/13 17:00:39 [trace] [oauth] oauth2=a703e85e5c1832b48e0e583434499140;signature=d9bd43ca17c6bc83fba969dfd797dfa9;timestamp=1444726839  45exE2p9PLngMrG
+2015/10/13 17:00:39 [trace] [oauth] oauth2=a703e85e5c1832b48e0e583434499140;signature=d9bd43ca17c6bc83fba969dfd797dfa9;timestamp=1444726839  jgdOcJmsm57Mmad
+2015/10/13 17:00:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "v1/users/(null)/logout".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('v1/users/(null)...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/v1/users/(null)/logout
+---
+2015/10/13 17:07:12 [trace] [oauth] oauth2=6a19775bc21172559960210259ef7bb7;signature=d8f8c653321b0c846dda86f82a48f4f2;timestamp=1444727232  izXvkNHwmg0civi
+2015/10/13 17:07:12 [trace] [oauth] oauth2=6a19775bc21172559960210259ef7bb7;signature=03c2bfd5e0577b2384d5994512534b81;timestamp=1444727233  ePQIcAcauwfEe0B
+2015/10/13 17:07:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "v1/users/(null)/logout".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('v1/users/(null)...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/v1/users/(null)/logout
+---
+2015/10/13 17:11:07 [error] [Controller::actionRest] Redis server went away
+2015/10/13 17:11:07 [error] [Controller::actionRest] Redis server went away
+2015/10/13 17:11:08 [error] [Controller::actionRest] Redis server went away
+2015/10/13 17:35:32 [error] [Controller::actionRest] Redis server went away
+2015/10/13 17:35:39 [error] [Controller::actionRest] Redis server went away
+2015/10/13 17:35:45 [error] [Controller::actionRest] Redis server went away
+2015/10/13 17:35:46 [error] [Controller::actionRest] Redis server went away
+2015/10/13 17:35:47 [error] [Controller::actionRest] Redis server went away
+2015/10/13 17:35:57 [error] [Controller::actionRest] Redis server went away
+2015/10/15 11:20:18 [error] [php] EMongoDB::getConnection(): The Mongo class is deprecated, please use the MongoClient class (/Users/linxun/code/wode/wode_api/protected/extensions/YiiMongoDbSuite/EMongoDB.php:144)
+Stack trace:
+#0 /Users/linxun/code/wode/wode_api/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(191): Users->getDb()
+#1 /Users/linxun/code/wode/wode_api/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(825): Users->getCollection()
+#2 /Users/linxun/code/wode/wode_api/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(921): Users->find()
+#3 /Users/linxun/code/wode/wode_api/protected/modules/users/controllers/OauthusersController.php(29): Users->findByAttributes()
+#4 /Users/linxun/code/wode/wode_api/protected/components/Controller.php(69): OauthusersController->post()
+#5 /Users/linxun/code/wode/yii/web/actions/CInlineAction.php(49): OauthusersController->actionRest()
+#6 /Users/linxun/code/wode/yii/web/CController.php(308): CInlineAction->runWithParams()
+#7 /Users/linxun/code/wode/yii/web/CController.php(286): OauthusersController->runAction()
+#8 /Users/linxun/code/wode/yii/web/CController.php(265): OauthusersController->runActionWithFilters()
+#9 /Users/linxun/code/wode/yii/web/CWebApplication.php(282): OauthusersController->run()
+#10 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#12 /Users/linxun/code/wode/wode_api/index.php(24): CWebApplication->run()
+REQUEST_URI=/v1/users/oauth
+in /Users/linxun/code/wode/wode_api/protected/extensions/YiiMongoDbSuite/EMongoDB.php (144)
+in /Users/linxun/code/wode/wode_api/protected/extensions/YiiMongoDbSuite/EMongoDB.php (181)
+in /Users/linxun/code/wode/wode_api/protected/extensions/YiiMongoDbSuite/EMongoDocument.php (166)
+2015/10/15 11:20:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/10/15 11:20:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/10/15 11:20:44 [error] [php] EMongoDB::getConnection(): The Mongo class is deprecated, please use the MongoClient class (/Users/linxun/code/wode/wode_api/protected/extensions/YiiMongoDbSuite/EMongoDB.php:144)
+Stack trace:
+#0 /Users/linxun/code/wode/wode_api/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(191): Users->getDb()
+#1 /Users/linxun/code/wode/wode_api/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(825): Users->getCollection()
+#2 /Users/linxun/code/wode/wode_api/protected/extensions/YiiMongoDbSuite/EMongoDocument.php(921): Users->find()
+#3 /Users/linxun/code/wode/wode_api/protected/modules/users/controllers/OauthusersController.php(29): Users->findByAttributes()
+#4 /Users/linxun/code/wode/wode_api/protected/components/Controller.php(69): OauthusersController->post()
+#5 /Users/linxun/code/wode/yii/web/actions/CInlineAction.php(49): OauthusersController->actionRest()
+#6 /Users/linxun/code/wode/yii/web/CController.php(308): CInlineAction->runWithParams()
+#7 /Users/linxun/code/wode/yii/web/CController.php(286): OauthusersController->runAction()
+#8 /Users/linxun/code/wode/yii/web/CController.php(265): OauthusersController->runActionWithFilters()
+#9 /Users/linxun/code/wode/yii/web/CWebApplication.php(282): OauthusersController->run()
+#10 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#12 /Users/linxun/code/wode/wode_api/index.php(24): CWebApplication->run()
+REQUEST_URI=/v1/users/oauth
+in /Users/linxun/code/wode/wode_api/protected/extensions/YiiMongoDbSuite/EMongoDB.php (144)
+in /Users/linxun/code/wode/wode_api/protected/extensions/YiiMongoDbSuite/EMongoDB.php (181)
+in /Users/linxun/code/wode/wode_api/protected/extensions/YiiMongoDbSuite/EMongoDocument.php (166)
+2015/10/15 15:11:26 [error] [php] Undefined index: HTTP_AUTHORIZATION (/Users/linxun/code/wode/wode_api/protected/components/Controller.php:48)
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CController.php(286): UsersController->runAction()
+#1 /Users/linxun/code/wode/yii/web/CController.php(265): UsersController->runActionWithFilters()
+#2 /Users/linxun/code/wode/yii/web/CWebApplication.php(282): UsersController->run()
+#3 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /Users/linxun/code/wode/wode_api/index.php(24): CWebApplication->run()
+REQUEST_URI=/v1/users/123
+2015/10/15 15:20:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(24): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/10/15 15:24:14 [error] [Controller::actionRest] EMongoDB failed to open connection: Failed to connect to: 10.10.57.196:27017: Operation timed out
+2015/10/15 15:24:30 [error] [Controller::actionRest] EMongoDB failed to open connection: Failed to connect to: 10.10.57.196:27017: Operation timed out
+2015/10/15 15:25:06 [error] [Controller::actionRest] EMongoDB failed to open connection: Failed to connect to: 10.10.57.196:27017: Operation timed out
+2015/10/15 15:25:22 [error] [Controller::actionRest] EMongoDB failed to open connection: Failed to connect to: 10.10.57.196:27017: Operation timed out
+2015/10/15 18:55:04 [error] [Controller::actionRest] EMongoDB failed to open connection: Failed to connect to: 10.10.57.196:27017: Operation timed out
+2015/10/16 12:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon-precomposed.png".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon-precomposed.png
+---
+2015/10/16 12:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon.png".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon.png
+---
+2015/10/16 14:51:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/10/16 15:01:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/10/16 15:01:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(25): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/10/20 12:17:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/10/20 12:17:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon-precomposed.png".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon-precomposed.png
+---
+2015/10/20 12:17:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/10/20 12:17:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon.png".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon.png
+---
+2015/10/20 12:17:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/10/20 12:17:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon-precomposed.png".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon-precomposed.png
+---
+2015/10/20 12:17:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon.png".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon.png
+---
+2015/10/20 21:30:00 [trace] [oauth] oauth2=08bf0779e197f8fda5ed5a6b5d2d9ec2;signature=9d30077f2645b82f3057cada7b00e554;timestamp=1445347798  vXUWGEMZqtZ6np6
+2015/10/20 21:30:00 [trace] [oauth] oauth2=08bf0779e197f8fda5ed5a6b5d2d9ec2;signature=9d30077f2645b82f3057cada7b00e554;timestamp=1445347798  y4J7YviDSQLu1Hd
+2015/10/20 21:30:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "v1/users/(null)/logout".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('v1/users/(null)...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/v1/users/(null)/logout
+---
+2015/10/20 21:31:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/10/20 21:31:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://wode.linxun.info/
+---
+2015/10/20 21:31:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon-precomposed.png".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon-precomposed.png
+---
+2015/10/20 21:31:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon.png".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon.png
+---
+2015/10/20 21:34:24 [trace] [oauth] oauth2=79b85b832ad71890eafab73ce7398cf6;signature=016b93a8af09e18582724995f26206c2;timestamp=1445348062  lLSt8IsSNFKxacc
+2015/10/20 21:34:24 [trace] [oauth] oauth2=79b85b832ad71890eafab73ce7398cf6;signature=016b93a8af09e18582724995f26206c2;timestamp=1445348062  QmVaDz42vCcufxE
+2015/10/20 21:34:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "v1/users/(null)/logout".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('v1/users/(null)...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/v1/users/(null)/logout
+---
+2015/10/20 21:35:09 [error] [FeedService::getFeedsFromMongo::538] get feed from mongo, need 2, result 2
+2015/10/20 21:35:10 [error] [FeedService::getFeedsFromMongo::538] get feed from mongo, need 2, result 2
+2015/10/20 21:48:25 [trace] [oauth] oauth2=7a2388e9ca3c38f15ed070bb6fc30ad1;signature=0ba59dc6a20ec4549d3bd1ba3dc8c36c;timestamp=1445348903  nRZok5DjOgbUerh
+2015/10/20 21:48:25 [trace] [oauth] oauth2=7a2388e9ca3c38f15ed070bb6fc30ad1;signature=64cf4e82aa8c26a02099e22d5dbd58da;timestamp=1445348904  ZqS6P6Hjep36gna
+2015/10/20 21:48:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "v1/users/(null)/logout".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('v1/users/(null)...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/v1/users/(null)/logout
+---
+2015/10/20 21:48:30 [error] [FeedService::getFeedsFromMongo::538] get feed from mongo, need 2, result 2
+2015/10/20 21:48:30 [error] [FeedService::getFeedsFromMongo::538] get feed from mongo, need 2, result 2
+2015/10/20 21:48:34 [error] [FeedService::getFeedsFromMongo::538] get feed from mongo, need 2, result 2
+2015/10/20 21:50:03 [error] [FeedService::getFeedsFromMongo::538] get feed from mongo, need 8, result 8
+2015/10/20 21:50:05 [error] [FeedService::getFeedsFromMongo::538] get feed from mongo, need 8, result 8
+2015/10/20 21:50:06 [error] [FeedService::getFeedsFromMongo::538] get feed from mongo, need 8, result 8
+2015/10/21 13:45:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/10/26 10:08:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/10/26 10:08:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon-precomposed.png".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon-precomposed.png
+---
+2015/10/26 10:08:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/10/26 10:08:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon.png".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon.png
+---
+2015/10/26 10:08:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/10/26 10:08:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon-precomposed.png".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon-precomposed.png
+---
+2015/10/26 10:08:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon.png".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon.png
+---
+2015/10/27 18:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/10/27 18:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://wode.linxun.info/
+---
+2015/10/27 18:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon-precomposed.png".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon-precomposed.png
+---
+2015/10/27 18:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon.png".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon.png
+---
+2015/10/27 18:01:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/10/27 18:03:22 [trace] [oauth] oauth2=b2f96264b7e24238c447587e93aa7394;signature=cb1a4190bc25f45682f51f387af81ec8;timestamp=1445940203  nF8TVaP8E8MXMC7
+2015/10/27 18:03:22 [trace] [oauth] oauth2=b2f96264b7e24238c447587e93aa7394;signature=cb1a4190bc25f45682f51f387af81ec8;timestamp=1445940203  gZbr7Y50WnJhPo3
+2015/10/27 18:03:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "v1/users/(null)/logout".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('v1/users/(null)...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/v1/users/(null)/logout
+---
+2015/10/27 18:03:30 [error] [FeedService::getFeedsFromMongo::538] get feed from mongo, need 2, result 2
+2015/10/27 18:03:30 [error] [FeedService::getFeedsFromMongo::538] get feed from mongo, need 2, result 2
+2015/10/27 18:06:05 [test] [test] 0=562f4c8d05099346060041a7
+2015/10/27 18:06:45 [test] [test] 0=562f4cb40509935f020041aa&1=562f4cb40509935f020041a9&2=562f4cb40509935f020041a8
+2015/10/27 18:07:01 [test] [test] 0=562f4cc405099360020041ab&1=562f4cc405099360020041aa&2=562f4cc405099360020041a9
+2015/10/27 18:07:13 [test] [test] 0=562f4cd005099346060041ad&1=562f4cd005099346060041ab&2=562f4cd005099346060041ac
+2015/10/27 18:07:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/10/27 18:08:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/10/28 15:40:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/10/29 17:06:13 [trace] [oauth] oauth2=0b82013d4eeb954e4ca48fd410aa4d2c;signature=9b77fd4c9b82b6fc8b7c790874698d26;timestamp=1446109573  DeTGYppW0E4e9lS
+2015/10/29 17:06:13 [trace] [oauth] oauth2=0b82013d4eeb954e4ca48fd410aa4d2c;signature=9b77fd4c9b82b6fc8b7c790874698d26;timestamp=1446109573  JYbUdRU9zBjbZux
+2015/10/29 17:06:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "v1/users/(null)/logout".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('v1/users/(null)...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/v1/users/(null)/logout
+---
+2015/10/29 17:06:17 [error] [FeedService::getFeedsFromMongo::538] get feed from mongo, need 2, result 2
+2015/10/29 17:06:17 [error] [FeedService::getFeedsFromMongo::538] get feed from mongo, need 2, result 2
+2015/11/02 10:40:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/11/02 10:40:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2015/11/02 10:40:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon-precomposed.png".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon-precomposed.png
+---
+2015/11/02 10:40:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon.png".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon.png
+---
+2015/11/02 10:40:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/11/02 10:40:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon-precomposed.png".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon-precomposed.png
+---
+2015/11/02 10:40:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon.png".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon.png
+---
+2015/12/21 14:13:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/12/21 14:13:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://wode.linxun.info/
+---
+2015/12/21 14:13:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon-precomposed.png".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon-precomposed.png
+---
+2015/12/21 14:13:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "apple-touch-icon.png".' in /Users/linxun/code/wode/yii/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/linxun/code/wode/yii/web/CWebApplication.php(141): CWebApplication->runController('apple-touch-ico...')
+#1 /Users/linxun/code/wode/yii/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/linxun/code/wode/wode_api/index.php(26): CApplication->run()
+#3 {main}
+REQUEST_URI=/apple-touch-icon.png
+---
