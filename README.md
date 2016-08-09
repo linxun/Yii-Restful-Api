@@ -28,9 +28,9 @@ Nginx(在server下面加上这一段)
         }
 ```
 ## MongoDB
-** 采用Yii框架的yii-mongo-suite扩展来操作mongodb
-** 该扩展的主页 http://www.yiiframework.com/extension/yiimongodbsuite/
-** 该扩展的文档 http://canni.github.io/YiiMongoDbSuite/xhtml_single/index.html
+* 采用Yii框架的yii-mongo-suite扩展来操作mongodb
+* 该扩展的主页 http://www.yiiframework.com/extension/yiimongodbsuite/
+* 该扩展的文档 http://canni.github.io/YiiMongoDbSuite/xhtml_single/index.html
 
 ## 主要的目录结构
 ```
